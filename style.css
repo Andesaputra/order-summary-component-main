@@ -47,7 +47,7 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-image: url("images/pattern-background-desktop.svg");
+    background-image: url("/images/pattern-background-desktop.svg");
     background-repeat:no-repeat;
     background-color: var(--pri-paleblue);
     background-size: contain;
@@ -176,7 +176,7 @@ a .btn-payment {
 /* media query */
 @media (max-width:480px) {
     body {
-        background-image: url("images/pattern-background-mobile.svg");
+        background-image: url("/images/pattern-background-mobile.svg");
         background-repeat:no-repeat;
 
         transform: scale(0.8);
